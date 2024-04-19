@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""This module contains a function that safely retrieves a value from a dictionary."""
+"""
+This module contains a function that safely retrieves a value from a dict.
+"""
 
 from typing import Mapping, Any, Union, TypeVar
 

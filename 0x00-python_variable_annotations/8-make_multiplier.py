@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""This module contains a function that multiplies a number by a given multiplier."""
+"""
+This module contains a function that multiplies a number by a given multiplier.
+"""
 
 from typing import Callable
 
@@ -11,7 +13,9 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
         multiplier (float): The multiplier value.
 
     Returns:
-        Callable[[float], float]: A function that takes a float as input and returns the multiplied value.
+        Callable[[float], float]:
+                A function that takes a float as input
+                        and returns the multiplied value.
 
     """
 
