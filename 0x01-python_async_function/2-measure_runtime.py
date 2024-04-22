@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """ Measures the average runtime of the wait_n function. """
 import asyncio
 import time
